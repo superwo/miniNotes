@@ -1,0 +1,40 @@
+.page {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+}
+.header {
+  width: 250px;
+  height: 100vh;
+}
+.header .navbar {
+  height: 100%;
+  align-items: flex-start;
+}
+
+.header .navbar-dark .navbar-nav .nav-link {
+  color: rgb(204, 202, 202);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.header .navbar-dark .navbar-nav .nav-link:hover {
+  color: rgb(255, 255, 255);
+}
+
+.page-content {
+  flex-grow: 1;
+  padding: 30px;
+}
+
+.signout {
+  margin-top: auto;
+  color: rgb(151, 150, 150) !important;
+  cursor: pointer;
+}
+
+.bi {
+  height: 1em;
+  width: 1em;
+  margin-right: 0.3rem;
+}
