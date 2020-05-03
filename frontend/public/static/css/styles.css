@@ -38,3 +38,7 @@
   width: 1em;
   margin-right: 0.3rem;
 }
+
+#nprogress .bar {
+  height: 4px !important;
+}

@@ -15,8 +15,8 @@ router.post(
   create
 );
 
-router.get('/categories', list);
-router.get('/category/:slug', read);
+router.get('/categories', requireSignin, list);
+router.get('/category/:slug', requireSignin, read);
 router.delete('/category/:slug', requireSignin, remove);
 
 module.exports = router;
